@@ -1,0 +1,251 @@
+/* Header start */
+.navigation a {
+    color: rgb(16, 16, 16);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    border-left: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 20px;
+    text-transform: uppercase;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.logo {
+    margin-left: 2%;
+    margin-top: 15px;
+    width: 160px;
+}
+
+ header {
+    position: sticky;
+    border-bottom: 1px solid black;
+ }
+
+.navigation {
+    float:right;
+    margin-top: 45px;
+    margin-right: 70px;
+}
+
+
+/* Header end */
+
+/* Profile start  */
+
+
+.profile_photo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 70px;
+    height: 200px;
+    width: 200px;
+    text-align: center;  
+}
+
+.profile_photo h3 {
+    font-family:sans-serif;
+    font-size: 22px; 
+    transform: scale(1, 1.3);
+    padding: 15px;
+}
+.profile_photo h4 {
+    text-align: end;
+    font-family: sans-serif;
+    font-size: 12px; 
+    transform: scale(0.9, 1.2);
+    padding: 2px;
+    font-style: italic;
+}
+
+/* Profile end  */
+
+/* About start */
+
+.about {
+    border: 1px solid rgb(170, 161, 161);
+    margin-right: 90px;
+    margin-left:350px;
+    margin-top: 50px;
+    background-color:rgb(155, 154, 154);
+    padding: 5px;
+    font-size:35px;
+    font-weight: bold;
+}
+
+.content {
+    margin-left:350px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-right: 90px;
+    line-height: 25px;
+}
+
+/* About end */
+
+/* Education start */
+
+.education {
+    border: 1px solid rgb(170, 161, 161);
+    margin-right: 90px;
+    margin-left:50px;
+    margin-top: 80px;
+    background-color:rgb(155, 154, 154);
+    padding: 5px;
+    font-size:35px;
+    font-weight: bold;
+}
+
+.ed_list {
+    float: left;
+    width: 70%;
+   margin-left: 50px;
+   margin-top: 30px;
+   font-family: sans-serif;
+   line-height: 25px;
+  }
+
+  .ed_list ul {
+    padding-left: 30px;
+  }
+  .institute {
+    padding-left: 16px;
+  }
+  .course {
+    font-size: large;
+    font-weight: bold;
+  }
+
+  /* Education end */
+
+  /* Skills start */
+
+  .skills {
+    border: 1px solid rgb(170, 161, 161);
+    margin-right: 90px;
+    margin-left:50px;
+    margin-top: 450px;
+    background-color:rgb(155, 154, 154);
+    padding: 5px;
+    font-size:35px;
+    font-weight: bold;
+  }
+
+  .skills_list {
+    float: left;
+    width: 70%;
+   margin-left: 50px;
+   margin-top: 30px;
+   font-family: sans-serif;
+   line-height: 25px;
+  }
+
+  .skills_list ul {
+    padding-left: 20px;
+  }
+
+  /* Skills end */
+
+  /* Contact start */
+
+
+  .contact {
+    float: right;
+    height: 450px;
+    width: 340px;
+    padding: 30px;
+    margin-left: 1030px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    position: absolute;
+    border: 2px solid black;
+
+  }
+
+  form {
+    margin: 12px;
+  }
+
+  .input-field {
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 20px;
+    border: 1px solid black;
+    border-radius: 14px;
+    outline: none;
+  }
+
+  form h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .textarea-field {
+    height: 150px;
+    padding-top: 10px;
+  }
+
+  form .btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: green;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+   /* Contact end */
+
+   /* Footer start */
+
+   .btn-instagram{
+    color:black;
+    padding-left: 42%;
+  }
+  .btn-linkedin{
+    color:black;
+    padding-left: 60px;
+  }
+  .btn-github{
+    color:black;
+    padding-left: 60px;  
+  }
+  .btn-twitter{
+    color: black;
+    padding-left: 60px;
+  }
+  .footer-button {
+    padding-top: 40%;
+}
+
+  .bg-footer h4 {
+    background-color: black;
+    height: 80px;
+    margin-top: 10px ;
+    color: white;
+    height: 1.5em;
+    text-align: center;
+  }
+
+  /* Footer end */
